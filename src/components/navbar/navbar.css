@@ -12,6 +12,7 @@
 
 .gpt3__navbar-links_logo img{
     align-items: center;
+    padding: 0 5rem;
 }
 
 .gpt3__navbar-links_container,
@@ -22,7 +23,7 @@
     color: #747474;
     font-family: 'Montserrat';
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 10px;
     align-items: center;
     padding: 0 4rem;
 }
