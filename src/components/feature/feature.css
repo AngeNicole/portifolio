@@ -1,0 +1,10 @@
+.feature__sidebar__line{
+    color: #3A3A3A;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    height: 715px;
+    margin: 0 5rem;
+}
+.feature__sidebar__links{
+    display: list-item;
+}
