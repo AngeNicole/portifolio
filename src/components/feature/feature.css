@@ -3,8 +3,22 @@
     border-left: 2px solid;
     border-right: 2px solid;
     height: 715px;
-    margin: 0 7rem 0 7rem;
+    margin: 0 7rem 0 0.8rem;
 }
 .feature__sidebar__links{
     display: list-item;
+    width: max-content;
+    padding: 2rem;
+}
+
+.feature__sidebar__links a{
+    
+}
+
+.feature__sidebar{
+    align-items: flex-end;
+    display: flex;
+    float: right;
+    /* height: 100vh;*/
+    overflow-y: hidden; 
 }

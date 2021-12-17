@@ -9,10 +9,8 @@ import './feature.css'
 
 const feature = () => {
     return (
+        
         <div className="feature__sidebar">
-            <div className="feature__sidebar__line">
-                <Navbar/>
-            </div>
             <div className="feature__sidebar__links">
                 <p><img src= {twitter} alt="" /></p>
                 <p><img src={behance} alt="" /></p>
@@ -20,6 +18,11 @@ const feature = () => {
                 <p><img src={github} alt="" /></p>
                 <p><img src= {instagram} alt="" /></p>
             </div>
+            <div className="feature__sidebar__line">
+                
+                <Navbar/>
+            </div>
+            
         </div>
     )
 }
