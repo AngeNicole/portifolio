@@ -12,7 +12,6 @@
 
 .gpt3__navbar-links_logo img{
     align-items: center;
-    padding: 0 4rem;
 }
 
 .gpt3__navbar-links_container,
@@ -38,7 +37,6 @@
 
 .gpt3__navbar-sign {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 

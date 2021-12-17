@@ -3,8 +3,8 @@ import './cta.css'
 
 const Cta = () => {
     return (
-        <div>
-            CTA
+        <div className="center__rect">
+            
         </div>
     )
 }
