@@ -1,14 +1,16 @@
-* {
+body {
+    background: var(--color-bg);
+    overflow-y: hidden;
+}
+
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
 }
 
-body {
-    background: var(--color-bg);
-    overflow-y: hidden;
-}
+
 
 a {
     color: unset;
@@ -36,10 +38,9 @@ a {
     align-items: flex-end;
     display: flex;
     float: right;
-    /* height: 100vh;*/
+    /* height: 100vh;
     overflow-y: hidden; 
 }
-/*  */
 
 .gradient__text {
     background: var(--gradient-text);
@@ -99,4 +100,4 @@ a {
     .section__margin {
         margin: 4rem 2rem;
     }
-}
+} */

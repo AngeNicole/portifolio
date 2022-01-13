@@ -5,7 +5,7 @@ import dribbble from '../../assets/icons/dribbble.svg'
 import github from '../../assets/icons/github.svg'
 import instagram from '../../assets/icons/instagram.svg'
 import Navbar from '../navbar/Navbar'
-import Cta from '../cta/CTA';
+// import Cta from '../cta/CTA';
 import './feature.css'
 
 const feature = () => {
@@ -20,10 +20,8 @@ const feature = () => {
                 <p><img src= {instagram} alt="" /></p>
             </div>
             <div className="feature__sidebar__line">
-                <Cta />
-                
+                <Navbar />
             </div>
-            
         </div>
     )
 }
